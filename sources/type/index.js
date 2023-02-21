@@ -24,6 +24,12 @@ console.log("any -> address: " + address);
 var nameUnknown;
 nameUnknown = "anhvi";
 console.log("unknown: " + nameUnknown);
+// type never
+// do not need to care, it is rarely used
+// type undefined & null
+// undefined and null are types that refer to the JavaScript primitives undefined and null respectively.
+var nameUnderfined = undefined;
+var nameNull = null;
 // Declare a variable with - Explicit
 var firstNameExplicit = "Dylan";
 // Declare a variable with - Implicit

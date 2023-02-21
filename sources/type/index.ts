@@ -26,6 +26,26 @@ console.log("any -> location: "+address.location);
 address = "i am from mars";
 console.log("any -> address: "+address);
 
+// type unknown
+let nameUnknown: unknown;
+nameUnknown = "anhvi";
+console.log("unknown: "+nameUnknown);
+
+// type never
+// do not need to care, it is rarely used
+
+// type undefined & null
+// undefined and null are types that refer to the JavaScript primitives undefined and null respectively.
+let nameUnderfined: undefined = undefined;
+let nameNull: null = null;
+
+
+// Declare a variable with - Explicit
+let firstNameExplicit: string = "Dylan";
+
+// Declare a variable with - Implicit
+let firstNameImplicit = "Dylan";
+
 // noImplicitAny
 let career = "developer";
 console.log("career: "+career);
